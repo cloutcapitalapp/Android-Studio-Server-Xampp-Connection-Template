@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.openmessenger.supermiware.androidStudioServerConnectionTemplate">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+    android:usesCleartextTraffic="true"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.openmessenger.supermiware.androidStudioServerConnectionTemplate.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        // Be sure to add the following library in your project.  It took me about a good 30 minutes
+        // of searching to realized that I needed this block added into the project before I could use
+        // library. -->
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+
+</manifest>

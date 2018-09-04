@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Server Connection Test</string>
+    <string name="nothingEntered"></string>
+    <string name="recEditTextHint">Rec</string>
+    <string name="outPutButton">DONE</string>
+    <string name="textViewString">TEXT</string>
+</resources>
